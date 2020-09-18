@@ -21,18 +21,50 @@ body {
   display: flex;
 }
 
+.font-small {
+  font-size: 14px;
+}
+
+
+/* header */
+
+header {
+  position: absolute;
+  right: 0;
+}
+
+.blue-text {
+  color: #0077d0;
+}
+
+.header-para {
+  padding: 20px 5px;
+  font-size: 14px;
+}
+
+.buttons {
+  margin: 15px;
+  padding: 5px 15px;
+  background-color: #0077c5;
+  border: 1px solid black;
+  border-radius: 10%;
+  color: white;
+}
+
+
+
+
 /* Main Section */
 
 main {
-  width: 350px;
+  width: 400px;
 }
 figure {
   justify-content: center;
 }
 
-form {
-  background-color: white;
-}
+
+
 
 .logo {
   width: 100px;
@@ -52,5 +84,30 @@ form {
 
 .icons-div img {
   padding: 0 5px;
+}
+
+/* Form */
+
+
+form {
+  background-color: white;
+  align-items: center;
+}
+
+form legend {
+  font-size: 22px;
+  padding: 40px 20px 10px 20px;
+}
+
+.learn-more {
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+form p {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 20px;
 }
 

@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intuit Form Page</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 </head>
 <body class="flex-vertical">
 
-  <header>
-    <div>
+  <header class="flex-horizontal">
+    <div class="header-para">
       <p>Already have an Intuit account?</p>
-    <p>I forgot my User ID or Password</p>
+      <p class="blue-text">I forgot my User ID or Password</p>
     </div>
    
-    <button>Sign In</button>
+    <button class="buttons">Sign In</button>
   </header>
 
   <main>
@@ -28,7 +29,10 @@
       <img src="images/turbotax-icon.png" class="icons" alt="turbotax icon"><span>turbotax</span>     
     </div>
 
-    <form action="">
+    <form class="flex-vertical"action="">
+      <legend>Create an Intuit account</legend>
+      <p>One account for everything Intuit, including Mint</p>
+      <a class="learn-more blue-text font-small" href="#">Learn more</a>
       <fieldset>
         <label for=""></label>
         <input type="email">
@@ -39,7 +43,7 @@
         <label for=""></label>
         <input type="text">
 
-        <button type="submit">Create account</button>
+        <button class="btns-color" type="submit">Create account</button>
       </fieldset>
       <p>By clicking Create account, you agree to our
         Terms and have read and acknowledge our Privacy Statement.</p>
