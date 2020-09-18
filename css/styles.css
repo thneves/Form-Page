@@ -6,10 +6,51 @@
 
 body {
   background-color: #eceef1;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
 }
 
-header {
+/* Global settings */
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-horizontal {
+  display: flex;
+}
+
+/* Main Section */
+
+main {
+  width: 350px;
+}
+figure {
+  justify-content: center;
+}
+
+form {
   background-color: white;
 }
-/* Global settings */
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.icons {
+  height: 23px;
+  width: auto;
+}
+
+.icons-div {
+  color: #6b6c72;
+  padding: 20px 15px;
+  justify-content: center;
+}
+
+.icons-div img {
+  padding: 0 5px;
+}
 
