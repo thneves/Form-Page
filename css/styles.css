@@ -37,7 +37,12 @@ body {
   font-size: 16px;
 }
 
-/* header */
+main {
+  width: 400px;
+  margin-top: 80px;
+}
+
+/* header and sign in button*/
 
 header {
   position: absolute;
@@ -48,16 +53,27 @@ header {
   color: #0077d0;
 }
 
+.blue-text:hover {
+  cursor: pointer;
+}
+
 .header-para {
   padding: 20px 5px;
   font-size: 14px;
 }
 
-/* Main Section */
-
-main {
-  width: 400px;
+.fa-lock-alt {
+  font-size: 3rem;
+  color: red;
+  opacity: 1;
 }
+
+
+
+
+/* logo and icons on the top */
+
+
 figure {
   justify-content: center;
 }
@@ -87,7 +103,7 @@ figure {
 form {
   background-color: white;
   align-items: center;
-  padding: 0 35px;
+  border: 1px solid #c7c7c7;
 }
 
 form legend {
@@ -97,14 +113,13 @@ form legend {
 
 .learn-more {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 form p {
   text-align: center;
-  font-size: 16px;
-  padding: 0 20px;
-}
+  font-size: 13px;
+ }
 
 fieldset {
   border: none;
@@ -116,6 +131,7 @@ fieldset label {
 
 fieldset input {
   border-radius: 5px;
+  width: 350px;
   height: 28px;
   border: 1px solid #c1c5c8;
 }
@@ -127,4 +143,45 @@ fieldset input {
 .submit-btn {
   margin: 30px 0;
   padding: 7px 0;
+}
+
+.terms {
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.3rem;
+  width: 260px;
+  color: #75757d;
+}
+
+.policy-div{
+  text-align: center;
+  background: #eceef1;
+  width: 100%;
+}
+
+.policy {
+  padding: 15px 0;
+  color: #9298a7;
+}
+
+/* footer */
+
+footer {
+  align-items: center;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #505050;
+  padding: 2px 0;
 }
