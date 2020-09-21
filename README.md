@@ -28,7 +28,7 @@ In this project we cloned the sign-up page of intuit using HTML and CSS. The pur
 - GitHub: [@githubhandle](https://github.com/thneves)
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
