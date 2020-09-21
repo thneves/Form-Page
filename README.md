@@ -14,18 +14,22 @@ In this project we cloned the sign-up page of intuit using HTML and CSS. The pur
 
 ## Live Demo
 
-[Live Demo Link](https://starsheriff2.github.io/Youtube-Clone/)
+[Live Demo Link](https://thneves.github.io/Form-Page/)
 
 ## Authors
 
 👤 **Arturo Alvarez**
 
 - GitHub: [@githubhandle](https://github.com/StarSherif12)
+- LinkedIn: [@carlosalvarezveroy](https://www.linkedin.com/in/carlosalvarezveroy/)
+- Twitter: [@Turo_83](https://twitter.com/Turo_83)
 
 
 👤 **Thales Neves**
 
 - GitHub: [@githubhandle](https://github.com/thneves)
+- LinkedIn: [@thales-neves10](https://www.linkedin.com/in/thales-neves10/)
+- Twitter: [@tsneves11](https://twitter.com/tsneves11)
 
 
 ## Contributing
