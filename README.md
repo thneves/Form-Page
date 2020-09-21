@@ -5,7 +5,6 @@
 > In this project we cloned the sign-up page of Intuit. The page is not functional since the main purpose was clone the front-end.
 
 ![screenshot](/images/top-preview.png)
-![screenshot](/images/bottom-preview.png)
 
 In this project we cloned the sign-up page of intuit using HTML and CSS. The purpose of this project was to use the form elements in HTML.
 
@@ -29,7 +28,7 @@ In this project we cloned the sign-up page of intuit using HTML and CSS. The pur
 - GitHub: [@githubhandle](https://github.com/thneves)
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
