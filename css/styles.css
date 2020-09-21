@@ -22,7 +22,7 @@ body {
 }
 
 .font-medium {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .font-small {
@@ -34,7 +34,8 @@ body {
   border: 1px solid #4c4c4c;
   border-radius: 5px;
   color: white;
-  font-size: 16px;
+  /*! font-size: 16px; */
+  box-shadow: 2px 2px 3px rgba(180, 180, 180, 40);
 }
 
 main {
@@ -42,11 +43,16 @@ main {
   margin-top: 80px;
 }
 
+.fa-lock {
+  padding: 0 8px;
+}
+
 /* header and sign in button*/
 
 header {
   position: absolute;
-  right: 0;
+  right: 15px;
+  /*! margin-right: 10px; */
 }
 
 .blue-text {
@@ -58,19 +64,15 @@ header {
 }
 
 .header-para {
-  padding: 20px 5px;
+  padding: 10px 5px;
   font-size: 14px;
 }
 
-.fa-lock-alt {
-  font-size: 3rem;
-  color: red;
-  opacity: 1;
+header button {
+  padding: 0px 15px;
+  height: auto;
+  margin: 10px;
 }
-
-
-
-
 /* logo and icons on the top */
 
 
@@ -132,7 +134,7 @@ fieldset label {
 fieldset input {
   border-radius: 5px;
   width: 350px;
-  height: 28px;
+  height: 32px;
   border: 1px solid #c1c5c8;
 }
 
@@ -140,9 +142,21 @@ fieldset input {
   padding-top: 5px;
 }
 
+#password {
+  padding-right: 13px
+}
+
+form input[type="text"]::placeholder {
+  font-family: "FontAwesome";
+  text-align: right;
+  font-size: 18px;
+  color: #c7c7cd;
+}
+
 .submit-btn {
   margin: 30px 0;
-  padding: 7px 0;
+  padding: 10px 0;
+  font-size: 16px;
 }
 
 .terms {
@@ -171,6 +185,7 @@ footer {
   align-items: center;
   margin-top: 30px;
   font-size: 13px;
+  margin-bottom: 20px;
 }
 
 footer a {
