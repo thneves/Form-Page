@@ -34,7 +34,6 @@ body {
   border: 1px solid #4c4c4c;
   border-radius: 5px;
   color: white;
-  /*! font-size: 16px; */
   box-shadow: 2px 2px 3px rgba(180, 180, 180, 40);
 }
 
@@ -47,12 +46,11 @@ main {
   padding: 0 8px;
 }
 
-/* header and sign in button*/
+/* header and sign in button */
 
 header {
   position: absolute;
   right: 15px;
-  /*! margin-right: 10px; */
 }
 
 .blue-text {
@@ -69,12 +67,12 @@ header {
 }
 
 header button {
-  padding: 0px 15px;
+  padding: 0 15px;
   height: auto;
   margin: 10px;
 }
-/* logo and icons on the top */
 
+/* logo and icons on the top */
 
 figure {
   justify-content: center;
@@ -143,11 +141,11 @@ fieldset input {
 }
 
 #password {
-  padding-right: 13px
+  padding-right: 13px;
 }
 
 form input[type="text"]::placeholder {
-  font-family: "FontAwesome";
+  font-family: "FontAwesome", sans-serif;
   text-align: right;
   font-size: 18px;
   color: #c7c7cd;
@@ -168,7 +166,7 @@ form input[type="text"]::placeholder {
   color: #75757d;
 }
 
-.policy-div{
+.policy-div {
   text-align: center;
   background: #eceef1;
   width: 100%;
