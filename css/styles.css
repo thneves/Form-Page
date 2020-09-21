@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eceef1;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+/* Global settings */
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-horizontal {
+  display: flex;
+}
+
+.font-medium {
+  font-size: 13px;
+}
+
+.font-small {
+  font-size: 10px;
+}
+
+.buttons {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 3px rgba(180, 180, 180, 40);
+}
+
+main {
+  width: 400px;
+  margin-top: 80px;
+}
+
+.fa-lock {
+  padding: 0 8px;
+}
+
+/* header and sign in button */
+
+header {
+  position: absolute;
+  right: 15px;
+}
+
+.blue-text {
+  color: #0077d0;
+}
+
+.blue-text:hover {
+  cursor: pointer;
+}
+
+.header-para {
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+header button {
+  padding: 0 15px;
+  height: auto;
+  margin: 10px;
+}
+
+/* logo and icons on the top */
+
+figure {
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.icons {
+  height: 23px;
+  width: auto;
+}
+
+.icons-div {
+  color: #6b6c72;
+  padding: 20px 15px;
+  justify-content: center;
+}
+
+.icons-div img {
+  padding: 0 5px;
+}
+
+/* Form */
+
+form {
+  background-color: white;
+  align-items: center;
+  border: 1px solid #c7c7c7;
+}
+
+form h1 {
+  font-size: 22px;
+  padding: 40px 20px 10px 20px;
+}
+
+.learn-more {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+form p {
+  text-align: center;
+  font-size: 13px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset label {
+  padding: 30px 0 5px 0;
+}
+
+fieldset input {
+  border-radius: 5px;
+  width: 350px;
+  height: 32px;
+  border: 1px solid #c1c5c8;
+}
+
+.phone-rates {
+  padding-top: 5px;
+}
+
+#password {
+  padding-right: 13px;
+}
+
+form input[type="text"]::placeholder {
+  font-family: "FontAwesome", sans-serif;
+  text-align: right;
+  font-size: 18px;
+  color: #c7c7cd;
+}
+
+.submit-btn {
+  margin: 30px 0;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.terms {
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.3rem;
+  width: 260px;
+  color: #75757d;
+}
+
+.policy-div {
+  text-align: center;
+  background: #eceef1;
+  width: 100%;
+}
+
+.policy {
+  padding: 15px 0;
+  color: #9298a7;
+}
+
+/* footer */
+
+footer {
+  align-items: center;
+  margin-top: 30px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #505050;
+  padding: 2px 0;
+}
