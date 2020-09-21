@@ -144,7 +144,7 @@ fieldset input {
   padding-right: 13px;
 }
 
-form input[type="text"]::placeholder {
+form input[type="password"]::placeholder {
   font-family: "FontAwesome", sans-serif;
   text-align: right;
   font-size: 18px;
